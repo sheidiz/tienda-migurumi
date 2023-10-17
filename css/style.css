@@ -8,3 +8,38 @@
     --primary-font-family: 'Josefin Sans', sans-serif;
     --grey-font-color: #4A494C;
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font-family);
+}
+.text-secondary-color{
+    color: var(--secondary-color);
+}
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+}
+.banner{
+    width: 100%;
+    position: relative;
+    background: url(../assets/img/hero-bg.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 20px 0 80px 0;
+}
+.banner h1{
+    font-size: 3rem;
+    text-wrap: balance;
+}
+
+@media (min-width: 768px){
+    .banner h1{
+        font-size: 3.5rem;
+        line-height: 1.2!important;
+    }
+}
+@media (min-width: 992px){
+    .banner h1{
+        font-size: 4rem;
+    }
+}
