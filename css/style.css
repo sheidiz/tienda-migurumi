@@ -14,7 +14,7 @@
     padding: 0;
     font-family: var(--primary-font-family);
 }
-.grey-color{
+.text-grey{
     color: var(--grey-font-color);
 }
 .text-secondary-color{
@@ -23,6 +23,11 @@
 .bg-secondary-color{
     background-color: var(--secondary-color);
 }
+p{
+    font-size: 1.5rem;
+    text-wrap: balance;
+    line-height: 1.2!important;
+}
 #banner{
     width: 100%;
     position: relative;
@@ -30,19 +35,36 @@
     background-size: cover;
     padding: 20px 0 80px 0;
 }
-#banner h1,#conocenos h2{
+#banner h1{
     font-size: 3rem;
     text-wrap: balance;
 }
-#conocenos p{
-    font-size: 1.5rem;
+#conocenos h2, #que-son-amigurumis h2{
+    font-size: 2.8rem;
+    font-weight: 600;
     text-wrap: balance;
 }
 
+#que-son-amigurumis{
+    width: 100%;
+    position: relative;
+    background: url(../assets/img/bg-2-v2.png) center left no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding: 100px 0 80px 0;
+}
 @media (min-width: 768px){
     #banner h1{
         font-size: 3.5rem;
         line-height: 1.2!important;
+    }
+    #conocenos{
+        margin-bottom: 2rem;
+    }
+    #que-son-amigurumis{
+        background: url(../assets/img/bg-2-v2.png) center top no-repeat;
+        height: 40vh;
+        padding: 100px 0 80px 0; 
     }
 }
 @media (min-width: 992px){
