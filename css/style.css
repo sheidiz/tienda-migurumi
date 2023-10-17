@@ -23,6 +23,9 @@
 .bg-secondary-color{
     background-color: var(--secondary-color);
 }
+.border-secondary-color{
+    border: 4px solid var(--secondary-color);
+}
 p{
     font-size: 1.5rem;
     text-wrap: balance;
@@ -39,7 +42,7 @@ p{
     font-size: 3rem;
     text-wrap: balance;
 }
-#conocenos h2, #que-son-amigurumis h2{
+#conocenos h2, #que-son-amigurumis h2, #galeria h2{
     font-size: 2.8rem;
     font-weight: 600;
     text-wrap: balance;
@@ -53,6 +56,9 @@ p{
     height: 60vh;
     padding: 100px 0 80px 0;
 }
+#galeria a{
+    font-size: 1.5rem;
+}
 @media (min-width: 768px){
     #banner h1{
         font-size: 3.5rem;
@@ -63,7 +69,7 @@ p{
     }
     #que-son-amigurumis{
         background: url(../assets/img/bg-2-v2.png) center top no-repeat;
-        height: 40vh;
+        height: 45vh;
         padding: 100px 0 80px 0; 
     }
 }

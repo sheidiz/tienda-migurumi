@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Tienda Migurumi</title>
 </head>
@@ -48,28 +46,82 @@
         <section id="banner" class="mb-3">
             <div class="row d-flex flex-row align-items-center text-center text-md-start">
                 <div class="col-12 col-md-6 order-1 order-md-2">
-                    <img class="w-75"src="./assets/img/picture.jpg" alt="Amigurumi">
+                    <img class="w-75" src="./assets/img/picture.jpg" alt="Amigurumi">
                 </div>
                 <div class="col-12 col-md-6 order-2 order-md-1 px-5 pe-md-0">
-                    <h1 class="text-white fw-bold lh-1">Amigurumis hechos <span class="text-decoration-underline text-secondary-color">a mano</span> con cariño</h1>
+                    <h1 class="text-white fw-bold lh-1">Amigurumis hechos <span
+                            class="text-decoration-underline text-secondary-color">a mano</span> con cariño</h1>
                     <h5 class="text-white fw-normal pb-3">Traemos a la vida a tu personaje favorito</h5>
-                    <a class="bg-secondary-color rounded-pill text-white fw-bold text-decoration-none px-3 py-2" href="#">Ver más</a>
+                    <a class="bg-secondary-color rounded-pill text-white fw-bold text-decoration-none px-3 py-2"
+                        href="#">Ver más</a>
                 </div>
             </div>
         </section>
         <section id="conocenos" class="text-grey text-center lh-1">
             <h2 class="pb-3">Conocenos</h2>
             <p class="fw-light">Dimos inicio a este proyecto familiar dedicado a los amigurumis en el año 2021.</p>
-            <p class="fw-light">En Migurumi cada creación que tejemos es una historia de amor y creatividad, cuidadosamente elaborada.</p>
-            <p class="fw-light">Queremos seguir haciendo realidad tus sueños y llevar alegría a través de creaciones únicas. Con 3 años de experiencia, hemos tejido momentos especiales para nuestros clientes. Te invitamos a ser parte de nuestra historia, ya sea regalándote a vos mismo un amigurumi o sorprendiendo a un ser querido.</p>
+            <p class="fw-light">En Migurumi cada creación que tejemos es una historia de amor y creatividad,
+                cuidadosamente elaborada.</p>
+            <p class="fw-light">Queremos seguir haciendo realidad tus sueños y llevar alegría a través de creaciones
+                únicas. Con 3 años de experiencia, hemos tejido momentos especiales para nuestros clientes. Te invitamos
+                a ser parte de nuestra historia, ya sea regalándote a vos mismo un amigurumi o sorprendiendo a un ser
+                querido.</p>
         </section>
         <section id="que-son-amigurumis" class="text-white text-center lh-1">
             <h2 class="pt-5 px-5 pb-3">¿Qué son los amigurumis?</h2>
-            <p class="fw-normal">Son una forma de arte japonesa que consiste en tejer a mano pequeños muñecos de animales, personajes o criaturas adorables.</p>
+            <p class="fw-normal">Son una forma de arte japonesa que consiste en tejer a mano pequeños muñecos de
+                animales, personajes o criaturas adorables.</p>
             <p class="fw-light">El término deriva de las palabras japonesas:
-            “ami”(tejer) “gurumi”(peluches)</p>
+                “ami”(tejer) “gurumi”(peluches)</p>
+        </section>
+        <section id="galeria" class="text-grey text-center lh-1 pt-5">
+            <h2>Nuestras creaciones</h2>
+            <div id="carousel-galeria" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-galeria" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/picture.jpg" class="d-block mx-auto" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5">
+                            <h5>Animales</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/picture.jpg" class="d-block mx-auto" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5">
+                            <h5>Personajes</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/picture.jpg" class="d-block mx-auto" alt="...">
+                        <div class="carousel-caption d-none d-md-block pb-5">
+                            <h5>Celebridades</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-galeria"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-galeria"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <a class="btn rounded-pill border-secondary-color text-secondary-color px-5" href="">Más diseños ></a>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
