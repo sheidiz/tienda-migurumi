@@ -20,6 +20,9 @@
 .text-secondary-color{
     color: var(--secondary-color);
 }
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
 .bg-secondary-color{
     background-color: var(--secondary-color);
 }
@@ -72,6 +75,10 @@ h2{
 #preguntas p{
     padding: 0 1.1rem!important;
     text-wrap:wrap;
+}
+#contactanos span, #contactanos a{
+    font-size: 1.2rem;
+    text-wrap: balance;
 }
 @media (min-width: 768px){
     #banner h1{
