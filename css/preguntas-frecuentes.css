@@ -1,0 +1,9 @@
+*{
+    --bs-accordion-active-bg: var(--secondary-color);
+    --bs-accordion-active-color: var(--grey-font-color);
+    --bs-accordion-btn-focus-border-color: var(--primary-color);
+    --bs-accordion-btn-focus-box-shadow: var(--primary-color);
+}
+p{
+    font-size: 1rem;
+}
