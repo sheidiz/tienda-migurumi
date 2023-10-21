@@ -68,6 +68,7 @@ h2{
 #galeria a{
     font-size: 1.5rem;
 }
+
 #personalizado img{
     width: 30vw;
 }
@@ -103,5 +104,8 @@ h2{
 @media (min-width: 992px){
     #banner h1{
         font-size: 4rem;
+    }
+    #galeria img{
+        width: 50%!important;
     }
 }
