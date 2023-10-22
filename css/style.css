@@ -48,7 +48,7 @@ h2{
 #logo{
     height: 2rem;
 }
-main{
+main,footer{
     overflow-x: hidden;
 }
 #banner{
