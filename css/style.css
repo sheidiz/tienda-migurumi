@@ -45,6 +45,9 @@ h2{
     font-weight: 600;
     text-wrap: balance;
 }
+#logo{
+    height: 2rem;
+}
 main{
     overflow-x: hidden;
 }
@@ -83,6 +86,9 @@ main{
     font-size: 1.2rem;
     text-wrap: balance;
 }
+#contactanos #logo-circular{
+    height: 7rem;
+}
 #firma{
     width: 100%;
     position: relative;
@@ -110,5 +116,8 @@ main{
     }
     #galeria img{
         width: 50%!important;
+    }
+    #contactanos #logo-circular{
+        height: 8rem;
     }
 }
